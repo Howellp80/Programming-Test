@@ -10,6 +10,7 @@ import words from "./data";
 
 let initialState = {
   words,
+  isSortedAZ : false
 };
 
 let store = createStore(
